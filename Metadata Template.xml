@@ -171,7 +171,7 @@ I7dd7AuWEW7n5uue+DL9dhtr5NPa9fwUOtpV8/XzNRtJ5bI8jisdysvDs5D2H04o
 		- ICAM-CODE-REQUIRED -->
 		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://yourapp.novascotia.ca/SSO/Assert" index="0" />		
 		
-		<!-- Change Notify Services -->
+		<!-- Change Notify Service -->
 		<!-- Service End Point for user profile change notifications
 			 PARAMETERS
 			 Binding:  SOAP is the only binding that is presently supported 
