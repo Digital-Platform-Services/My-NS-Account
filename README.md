@@ -37,4 +37,9 @@ Any web or mobile application that has access to the internet can be integrated 
 While the migration process will vary between RPs, DPS will work with any new Relying Party to create a unique, automated user migration process to ensure historic user accounts are not lost when the service is connected to the NSLS.
 
 ## What other Services are provided with the NSLS?
-As part of the managed service, the NSLS provides a Level 1 Service Desk 8AM – 8PM AT, Monday to Friday to provide end user support. In addition, RPs have access 24x7x365 to a Level 2 Service Desk for incident reporting and information requests.
+As part of the managed service, the NSLS provides: 
+
+* a bilingual customer facing (Tier 1) Service Desk 8AM – 8PM AT
+* Monday to Friday to provide end user support
+* online self-serve options
+* group membership management
