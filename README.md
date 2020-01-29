@@ -44,6 +44,12 @@ As part of the managed service, the NSLS provides:
 * online self-serve options
 * group membership management
 
-##	High Level Solution Overview
+#	High Level Solution Overview
 
-The NSLS is architected to rely on industry leading technologies which meet and exceed the requirements defined by DPS. The architecture has been influenced by relevant Canadian standards such as the [Pan-Canadian Trust Framework (DRAFT)](), and the [Pan-Canadian Assurance Model]() and [Cyber Authentication Technology Solutions (CATS 2.0)]().
+The NSLS is architected to rely on industry leading technologies which meet and exceed the requirements defined by DPS. 
+
+The architecture has been influenced by relevant Canadian standards such as:
+
+* [Pan-Canadian Trust Framework (DRAFT)](), 
+* [Pan-Canadian Assurance Model]() 
+* [Cyber Authentication Technology Solutions (CATS 2.0)]().
