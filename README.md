@@ -46,7 +46,7 @@ As part of the managed service, the NSLS provides:
 
 #	High Level Solution Overview
 
-The NSLS is architected to rely on industry leading technologies which meet and exceed the requirements defined by DPS. The architecture has been influenced by relevant Canadian standards such as:
+The NSLS is architected to rely on industry leading technologies which meet and exceed the requirements defined by the Province of Nova Scotia's Digital Platform Services team. The architecture has been influenced by relevant Canadian standards such as:
 
 * [Pan-Canadian Trust Framework (DRAFT)](https://diacc.ca/pan-canadian-trust-framework/)
 * [Pan-Canadian Assurance Model](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=30678&section=html) 
