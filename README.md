@@ -46,10 +46,8 @@ As part of the managed service, the NSLS provides:
 
 #	High Level Solution Overview
 
-The NSLS is architected to rely on industry leading technologies which meet and exceed the requirements defined by DPS. 
+The NSLS is architected to rely on industry leading technologies which meet and exceed the requirements defined by DPS. The architecture has been influenced by relevant Canadian standards such as:
 
-The architecture has been influenced by relevant Canadian standards such as:
-
-* [Pan-Canadian Trust Framework (DRAFT)](), 
-* [Pan-Canadian Assurance Model]() 
-* [Cyber Authentication Technology Solutions (CATS 2.0)]().
+* [Pan-Canadian Trust Framework (DRAFT)](https://diacc.ca/pan-canadian-trust-framework/)
+* [Pan-Canadian Assurance Model](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=30678&section=html) 
+* [Cyber Authentication Technology Solutions (CATS 2.0)](https://canada-ca.github.io/CATS-STAE/archive/CATS_V2_0_Deployment_Profile_Final_r8_2_en.pdf)
