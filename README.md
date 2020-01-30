@@ -14,6 +14,14 @@ The NSLS provides a single, centrally managed credential and identity to users. 
 * global logout 
 * profile management
 
+##	High Level  Overview
+
+The NSLS is architected to rely on industry leading technologies which meet and exceed the requirements defined by the Province of Nova Scotia's Digital Platform Services (DPS) team. The architecture has been influenced by relevant Canadian standards such as:
+
+* [Pan-Canadian Trust Framework (DRAFT)](https://diacc.ca/pan-canadian-trust-framework/)
+* [Pan-Canadian Assurance Model](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=30678&section=html) 
+* [Cyber Authentication Technology Solutions (CATS 2.0)](https://canada-ca.github.io/CATS-STAE/archive/CATS_V2_0_Deployment_Profile_Final_r8_2_en.pdf)
+
 ## Who uses the NSLS?
 The system is currently being used by over 100,000 users (citizen, non-citizen and Government of Nova Scotia employees) who require access to online government services. 
 
@@ -43,11 +51,3 @@ As part of the managed service, the NSLS provides:
 * Monday to Friday to provide end user support
 * online self-serve options
 * group membership management
-
-#	High Level Solution Overview
-
-The NSLS is architected to rely on industry leading technologies which meet and exceed the requirements defined by the Province of Nova Scotia's Digital Platform Services (DPS) team. The architecture has been influenced by relevant Canadian standards such as:
-
-* [Pan-Canadian Trust Framework (DRAFT)](https://diacc.ca/pan-canadian-trust-framework/)
-* [Pan-Canadian Assurance Model](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=30678&section=html) 
-* [Cyber Authentication Technology Solutions (CATS 2.0)](https://canada-ca.github.io/CATS-STAE/archive/CATS_V2_0_Deployment_Profile_Final_r8_2_en.pdf)
