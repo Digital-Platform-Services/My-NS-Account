@@ -28,13 +28,19 @@ These other features include role-based access controls, Relying Party (RP) affi
 Relying Parties will need to ensure their application is either SAML 2.0 or OIDC 1.0 compliant, i.e. they must have the ability to send, receive and process SAML or OIDC requests/responses. See our [RFP Requirements documentation](./RFP%20Documentation/Digital%20Identity%20-%20RFP%20Requirements%20-%2020190314.docx).
 
 ## What information is provided in the SAML/OIDC messages?
-The NSLS will send a SAML or OIDC response message back to Relying Parties after a successful authentication. Included in that message is a configurable set of user attributes including the user’s name, email and a unique identifier/GUID. Applications will also receive logout, revocation and change notification messages.
+The NSLS will send a SAML or OIDC response message back to Relying Parties after a successful authentication. Included in that message is a configurable set of user attributes including:
+
+* the user’s name
+* email address
+* a unique identifier/GUID 
+
+Applications will also receive logout, revocation and change notification messages.
 
 ## What types of applications can be integrated with the NSLS?
 Any web or mobile application that has access to the internet can be integrated with the NSLS. 
 
 ## What if it is necessary to keep existing users’ accounts?
-While the migration process will vary between RPs, DPS will work with any new Relying Party to create a unique, automated user migration process to ensure historic user accounts are not lost when the service is connected to the NSLS.
+While the migration process will vary between RPs, DPS will work with any new RR to create a unique, automated user migration process to ensure historic user accounts are not lost when the service is connected to the NSLS.
 
 ## What other Services are provided with the NSLS?
 As part of the managed service, the NSLS provides: 
