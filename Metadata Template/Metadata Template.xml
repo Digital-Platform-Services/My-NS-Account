@@ -7,6 +7,10 @@
 		
 		This metadata file defines information about the relying party by describing what services (protocols) it supports and by which communication methods (bindings) it can accessed.
 		
+		For all of the URL's supplied, non standard port numbers and loopback network interfaces (e.g. localhost) are permitted but HTTPS (TLS 1.2+) is required. 
+		e.g. 	https://yourapp.novascotia.ca:44340/Assert 
+				https://localhost/SLO
+		
 		PARAMETERS
 		xmlns: These are XML Namespaces that define how the XML structure should be formated and interpreted, these need not be changed 
 		ID: A globally unique ID (prefix with an underscore "_" for compatibility reasons) 
@@ -57,6 +61,20 @@
 	<md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" 
 						AuthnRequestsSigned="true"
 						WantAssertionsSigned="true">
+		
+		<!-- Change Notify Service -->
+		<!-- Service End Point for user profile change notifications
+			 PARAMETERS
+			 Binding:  SOAP is the only binding that is presently supported 
+			 Location: URL of the location where a SAML Change Notify message may be sent to inform your application of change in a user's profile information
+			 editProfileReturnUrl: URL of the location where users are returned after Changing Profile information 
+		- ICAM-CODE-REQUIRED -->
+		<md:Extensions>
+			<md:ChangeNotifyService 
+				Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" 
+				Location="https://yourapp.novascotia.ca/SSO/ChangeNotify"
+				editProfileReturnUrl="https://yourapp.novascotia.ca/Account/Details" />
+		</md:Extensions>
 		
 		<!-- Signing Key Data -->
 		<md:KeyDescriptor use="signing">
@@ -118,10 +136,6 @@ I7dd7AuWEW7n5uue+DL9dhtr5NPa9fwUOtpV8/XzNRtJ5bI8jisdysvDs5D2H04o
 			</ds:KeyInfo>
 		</md:KeyDescriptor>
 
-		<!-- Name ID Format -->
-		<!-- Persistent is the only format that is presenty supported -->
-		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>		
-		
 		<!-- Single Logout Service -->
 		<!-- Service end point for Single Logout (Federated Logout), this is where SAML messages relating RP or IdP iniaited logouts will be issued
 			 Presently there are two Single Logout Bindings supported: SOAP and HTTP-Redirect 
@@ -146,6 +160,10 @@ I7dd7AuWEW7n5uue+DL9dhtr5NPa9fwUOtpV8/XzNRtJ5bI8jisdysvDs5D2H04o
 			 Location: URL of the location where a SAML Manage NameID Request message may be sent to inform your application of the termination of a user for that service
 		- ICAM-CODE-REQUIRED -->
 		<md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"	Location="https://yourapp.novascotia.ca/SSO/RevokeIdentity" />
+
+		<!-- Name ID Format -->
+		<!-- Persistent is the only format that is presenty supported -->
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>		
 		
 		<!-- Assertion Consumer Services -->
 		<!-- Service End Point for user identity assertion 
@@ -170,20 +188,7 @@ I7dd7AuWEW7n5uue+DL9dhtr5NPa9fwUOtpV8/XzNRtJ5bI8jisdysvDs5D2H04o
 			 index: Defines a unique index number for each binding supported by your service, default: 0
 		- ICAM-CODE-REQUIRED -->
 		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://yourapp.novascotia.ca/SSO/Assert" index="0" />		
-		
-		<!-- Change Notify Service -->
-		<!-- Service End Point for user profile change notifications
-			 PARAMETERS
-			 Binding:  SOAP is the only binding that is presently supported 
-			 Location: URL of the location where a SAML Change Notify message may be sent to inform your application of change in a user's profile information
-			 editProfileReturnUrl: URL of the location where users are returned after Changing Profile information 
-		- ICAM-CODE-REQUIRED -->
-		<md:Extensions>
-			<md:ChangeNotifyService 
-				Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://yourapp.novascotia.ca/SSO/ChangeNotify"
-				editProfileReturnUrl="https://yourapp.novascotia.ca/Account/Details" />
-		</md:Extensions>
-		
+
 	</md:SPSSODescriptor>
 	
 </md:EntityDescriptor>
