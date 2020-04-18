@@ -6,7 +6,7 @@
 
 ### IdP Metadata File
 * Test Environment - SOAP | HTTP-Redirect
-* Production Environment - SOAP | HTTP-Redirect
+* Production Environment - SOAP | [HTTP-Redirect](https://github.com/Digital-Platform-Services/Nova-Scotia-Login-Service/blob/master/IdP-Metadata/mynsid-idp.meta-signed-slo-redirect.20190814.xml)
 
 ### Optional 
 * Metadata Template - [Metadata Template.xml](https://github.com/Digital-Platform-Services/Nova-Scotia-Login-Service/blob/master/Metadata%20Template/Metadata%20Template.xml)
