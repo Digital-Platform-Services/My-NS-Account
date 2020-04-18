@@ -8,7 +8,7 @@
 * Test Environment - SOAP | HTTP-Redirect
 * Production Environment - SOAP | HTTP-Redirect
 
-Optional 
+### Optional 
 * Metadata Template - [Metadata Template.xml](https://github.com/Digital-Platform-Services/Nova-Scotia-Login-Service/blob/master/Metadata%20Template/Metadata%20Template.xml)
 
 ## Generate Private Keys and Certificate Signing Requests (CSRs)
