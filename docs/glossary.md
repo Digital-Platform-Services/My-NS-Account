@@ -1,3 +1,5 @@
+# Glossary
+
 ### Credential LOA 
 Credential Level of Assurance, or LOA, is a relative measure of the strength of the authenticator or authenticators being used to authenticate to a given system. This can range from username and password at LOA2 to strong cryptographic authentication at LOA4.
 
@@ -16,7 +18,7 @@ The organization (e.g. government department) that uses (or relies upon) the ide
 ### SAML
 Security Assertion Mark-up Language – An Authentication and Authorization standard developed and managed by the OASIS standards body.
 
-## Service Provider (SP)
+### Service Provider (SP)
 See Relying Party (RP). These terms are used interchangeably.
 
 ## Public Key Cryptography and Public Key Infrastructure
