@@ -15,8 +15,8 @@ An authentication layer on top of OAuth 2.0, an authorization framework. The sta
 ### Relying Party (RP)
 The organization (e.g. government department) that uses (or relies upon) the identity services, e.g. Nova Scotia Online.
 
-### SAML
-Security Assertion Mark-up Language – An Authentication and Authorization standard developed and managed by the OASIS standards body.
+### Security Assertion Mark-up Language (SAML)
+SAML is an XML-based framework for authentication and authorization between two entities: an RP and IdP. The RP agrees to trust the IdP to authenticate users. In return, the IdP generates an authentication assertion, which indicates that a user has been authenticated. SAML is a standard single sign-on (SSO) format. Authentication information is exchanged through digitally signed XML documents, enabling seamless authentication. SAML was developed and is managed by the OASIS standards body.
 
 ### Service Provider (SP)
 See Relying Party (RP). These terms are used interchangeably.
