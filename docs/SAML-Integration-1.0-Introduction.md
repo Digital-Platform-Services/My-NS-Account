@@ -1,4 +1,4 @@
-# 1.0 SAML Integration - Introduction
+# SAML Integration - Introduction
 
 In order to connect your application to the Nova Scotia Login System (NSLS) there are several cryptographic elements that need to be created in order to ensure secure communication between the Identity Provider (IdP) and your application (also known as a Relying Party (RP)).
 
