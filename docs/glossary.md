@@ -75,5 +75,5 @@ Personally identifiable information, or PII, is any data that could potentially 
 PII is often discussed in the context of data breaches and identity theft. If a company or organization suffers a data breach, a significant concern is what PII might be exposed—the personal data of the customers that do business or otherwise interact with the entity.
 
 ### Learn More
-https://en.wikipedia.org/wiki/Public-key_cryptography
-https://en.wikipedia.org/wiki/Public_key_infrastructure
+* https://en.wikipedia.org/wiki/Public-key_cryptography
+* https://en.wikipedia.org/wiki/Public_key_infrastructure
