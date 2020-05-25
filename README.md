@@ -20,9 +20,11 @@ The system is currently being used by over 100,000 users (citizen, non-citizen a
 Individuals can create an NSLS username and password to login, while employees can use their Active Directory (STS or Health ADFS) credentials. 
 
 ## What features can the NSLS provide Department Applications?
-In addition to the core authentication and identity management features, the NSLS has many configurable features that Department Applications (further defined as Relying Parties) can choose from.
+In addition to the core authentication and identity management features, the NSLS has several configurable features that Department Applications (further defined as Relying Parties) can choose from. These features include:
 
-In addition to the core authentication and identity management features, features include role-based access controls, Relying Party (RP) affiliations and authentication source control (citizen and/or employee).
+* role-based access controls;
+* Relying Party (RP) affiliations and;
+* authentication source control (citizen and/or employee)
 
 ## How does your application integrate with the NSLS?
 Relying Parties will need to ensure their application is either SAML 2.0 or OIDC 1.0 compliant, i.e. they must have the ability to send, receive and process SAML or OIDC requests/responses. See our [RFP Requirements documentation](./RFP%20Documentation/Digital%20Identity%20-%20RFP%20Requirements%20-%2020190314.docx).
