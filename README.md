@@ -26,6 +26,9 @@ In addition to the core authentication and identity management features, the NSL
 * Relying Party (RP) affiliations and;
 * authentication source control (citizen and/or employee)
 
+## What changes need to be made in order to integrate with the NSLS?
+Relying Parties will need to implement minor front-end changes to their application to allow users to login and logout of the NSLS, as well as to access their profile. With respect to required back end changes, RPs will need to ensure their application is either SAML 2.0 or OIDC compliant, i.e. they must have the ability to send, receive and process SAML or OIDC requests/responses. See our [RFP Requirements documentation](./RFP%20Documentation/Digital%20Identity%20-%20RFP%20Requirements%20-%2020190314.docx).
+
 ## How does your application integrate with the NSLS?
 Relying Parties will need to ensure their application is either SAML 2.0 or OIDC 1.0 compliant, i.e. they must have the ability to send, receive and process SAML or OIDC requests/responses. See our [RFP Requirements documentation](./RFP%20Documentation/Digital%20Identity%20-%20RFP%20Requirements%20-%2020190314.docx).
 
