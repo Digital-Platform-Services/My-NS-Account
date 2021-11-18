@@ -1,7 +1,7 @@
 # Update
-Please be advised that the NSLS will enter a change restriction period, during the following timeframe:
+Please be advised that the NSLS change restriction timeframe will be in effect from:
 
-`12 December 2021 07:00 (AT) *to* 10 January 2022 09:00 (AT)`
+`12 December 2021 07:00 (AT) to 10 January 2022 09:00 (AT)`
 
 
 # Nova Scotia Login System
