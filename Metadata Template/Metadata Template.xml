@@ -16,7 +16,7 @@
 		ID: A globally unique ID (prefix with an underscore "_" for compatibility reasons) 
 			e.g. "_c875ac81-b7aa-4854-91fe-653af81751ab")
 		entityID: The name/domain of your application  
-				  No two entityIDs may be the same for the NSLS Test or Prod environments.
+				  No two entityIDs may be the same for the NSiD Non-Production or Production environments.
 				  If you are requesting multiple integrations in the same environment (Test / Prod) be sure to provide some differentiating context (<AppName>_UAT, <AppName>_Stage, <AppName>_Dev)
 				  e.g.  NewApp.NovaScotia.ca
 						NewApp
