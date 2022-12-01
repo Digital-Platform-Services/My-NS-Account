@@ -6,7 +6,7 @@ End: `08:00 (ET) 9 January 2023`
 
 Change activities for both non-prod and production integrations will be restricted during this window. 
 
-For further clarification, contact nsidentity@novascotia.ca
+For further clarification, contact nsidentity@novascotia.ca.
 
 ***
 
