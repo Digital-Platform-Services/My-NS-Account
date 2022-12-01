@@ -1,6 +1,6 @@
 ## Notice: Restricted Change Window
 
-Start: `06:00 (ET) 12 December 2022` 
+Start: `06:00 (ET) 18 December 2022` 
 
 End: `08:00 (ET) 9 January 2023`
 
