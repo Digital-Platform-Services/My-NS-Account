@@ -32,7 +32,7 @@
 					 validUntil="2020-12-31T00:00:00.000Z">
 	
 	<!-- UI Display Name Extensions-->
-	<!-- This provides the name of your application as it appears in NS Login System
+	<!-- This provides the name of your application as it appears in the Digital Identity Platform, NSiD
 		 PARAMETERS 
 		 DisplayName: This should be unique for all integrations that you have in the same environment (Test/Prod) so that you can tell them apart in the list of services 
 					  While French language (xml:lang="fr") is currently not supported, it is advised to include the correct application name in French to reduce the need for your application 
@@ -169,7 +169,7 @@ I7dd7AuWEW7n5uue+DL9dhtr5NPa9fwUOtpV8/XzNRtJ5bI8jisdysvDs5D2H04o
 		<!-- Service End Point for user identity assertion 
 			 PARAMETERS
 			 Binding:  HTTP-POST is the only binding that is presently supported 
-			 Location: The URL where the client will be redirected after authentication to the Nova Scotia Login System
+			 Location: The URL where the client will be redirected after authentication to the Digital Identity Platform, NSiD
 					   The SAML Authentication Response message will be provided as part of the payload and will indicate the status of the authentication (Success or Failure (Shows message Requester)) 
 					   A successful response will include the following user attributes: 
 							NameID - The globally unique identifier assigned to the user for your applicaiton. Each user is assigned a unique id for each application.
