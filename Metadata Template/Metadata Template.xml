@@ -156,7 +156,7 @@ I7dd7AuWEW7n5uue+DL9dhtr5NPa9fwUOtpV8/XzNRtJ5bI8jisdysvDs5D2H04o
 		<!-- Manage Name ID Service -->
 		<!-- Service end point for Name ID Management (User revocation)
 			 PARAMETERS
-			 Binding:  HTTP-POST is the only binding that is presently supported 
+			 Binding:  SOAP is the only binding that is presently supported 
 			 Location: URL of the location where a SAML Manage NameID Request message may be sent to inform your application of the termination of a user for that service
 		- ICAM-CODE-REQUIRED -->
 		<md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"	Location="https://yourapp.novascotia.ca/SSO/RevokeIdentity" />
