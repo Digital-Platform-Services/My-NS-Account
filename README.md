@@ -1,3 +1,5 @@
+<!--
+
 ## Notice: Restricted Change Window
 
 Start: `06:00 (ET) 18 December 2022` 
@@ -7,6 +9,8 @@ End: `08:00 (ET) 9 January 2023`
 Change activities for both non-prod and production integrations will be restricted during this window. 
 
 For further clarification, contact nsidentity@novascotia.ca.
+
+-->
 
 ***
 
