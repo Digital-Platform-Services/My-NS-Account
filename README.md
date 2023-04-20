@@ -15,7 +15,7 @@ For further clarification, contact nsidentity@novascotia.ca.
 ***
 
 # My NS Account
-My NS Account is an Identity and Access Management platform (IAM) designed to provide individuals access to Nova Scotian digital services. My NS Account provides a single, centrally managed credential and identity to users.
+My NS Account is an Identity and Access Management platform (IAM) designed to provide individuals access to Nova Scotian digital services. This platform provides a single, centrally managed credential and identity to users.
 
 [Visit our wiki to learn more](https://github.com/Digital-Platform-Services/My-NS-Account/wiki).
 
