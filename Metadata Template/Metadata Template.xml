@@ -16,7 +16,7 @@
 		ID: A globally unique ID (prefix with an underscore "_" for compatibility reasons) 
 			e.g. "_c875ac81-b7aa-4854-91fe-653af81751ab")
 		entityID: The name/domain of your application  
-				  No two entityIDs may be the same for the NSiD Non-Production or Production environments.
+				  No two entityIDs may be the same for the My NS Account Non-Production or Production environments.
 				  If you are requesting multiple integrations in the same environment (Test / Prod) be sure to provide some differentiating context (<AppName>_UAT, <AppName>_Stage, <AppName>_Dev)
 				  e.g.  NewApp.NovaScotia.ca
 						NewApp
@@ -30,23 +30,6 @@
 					 ID="_GUID" 
 					 entityID="yourapp.novascotia.ca" 
 					 validUntil="2020-12-31T00:00:00.000Z">
-	
-	<!-- UI Display Name Extensions-->
-	<!-- This provides the name of your application as it appears in the Digital Identity Platform, NSiD
-		 PARAMETERS 
-		 DisplayName: This should be unique for all integrations that you have in the same environment (Test/Prod) so that you can tell them apart in the list of services 
-					  While French language (xml:lang="fr") is currently not supported, it is advised to include the correct application name in French to reduce the need for your application 
-					  to resubmit a new metadata file should French become required
-		 Description: A description is not presently required but may be leveraged in future releases
-	- ICAM-CODE-REQUIRED-->	 
-	<md:Extensions>
-		<mdui:UIInfo>
-			<mdui:DisplayName xml:lang="en">DPS RP Simulator 01</mdui:DisplayName> 
-			<mdui:DisplayName xml:lang="fr">DPS RP Simulator 01 Fr</mdui:DisplayName>
-			<mdui:Description xml:lang="en">Online tool for interacting with DPS</mdui:Description>
-			<mdui:Description xml:lang="fr">Online tool for interacting with DPS FR</mdui:Description>
-		</mdui:UIInfo>
-	</md:Extensions>
 	
 	<!-- Service Providor Single Sign On Descriptor -->
 	<!-- Defines the certificates used for signing and encryption of messages between your application and the IdP.
@@ -169,7 +152,7 @@ I7dd7AuWEW7n5uue+DL9dhtr5NPa9fwUOtpV8/XzNRtJ5bI8jisdysvDs5D2H04o
 		<!-- Service End Point for user identity assertion 
 			 PARAMETERS
 			 Binding:  HTTP-POST is the only binding that is presently supported 
-			 Location: The URL where the client will be redirected after authentication to the Digital Identity Platform, NSiD
+			 Location: The URL where the client will be redirected after authentication to the Digital Identity Platform, My NS Account.
 					   The SAML Authentication Response message will be provided as part of the payload and will indicate the status of the authentication (Success or Failure (Shows message Requester)) 
 					   A successful response will include the following user attributes: 
 							NameID - The globally unique identifier assigned to the user for your applicaiton. Each user is assigned a unique id for each application.
